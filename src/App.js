@@ -13,18 +13,28 @@ import Home from './components/Home';
 import { Outlet } from 'react-router-dom';
 import { DataProvider } from './context/DataContext';
 
+import "@aws-amplify/ui-react/styles.css";
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react";
 
 
-function App() {
+
+function App({ signOut }) {
 
   return (
     <div className="App" style={{ padding: "20px" }}>
       <DataProvider>
-        <ButtonAppBar />
+        <ButtonAppBar signOut={signOut} />
         <Outlet />
       </DataProvider>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify0e426f17fc274-staging-185955-authRole",
+      "UnauthRoleArn": "arn:aws:iam::149091498798:role/amplify-amplify0e426f17fc274-staging-185955-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::149091498798:role/amplify-amplify0e426f17fc274-staging-185955-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify0e426f17fc274-staging-185955-deployment",
+      "UnauthRoleName": "amplify-amplify0e426f17fc274-staging-185955-unauthRole",
+      "StackName": "amplify-amplify0e426f17fc274-staging-185955",
+      "StackId": "arn:aws:cloudformation:us-east-2:149091498798:stack/amplify-amplify0e426f17fc274-staging-185955/a562da20-9469-11ee-a6e2-0acdd01b8d35",
+      "AmplifyAppId": "d35vw8gi0k4m6v"
+    },
+    "categories": {
+      "auth": {
+        "wealthcyclea866c852": {}
+      }
+    }
+  }
+}
